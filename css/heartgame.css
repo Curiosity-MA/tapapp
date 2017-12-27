@@ -1,0 +1,46 @@
+body { font-family: '"Microsoft YaHei'; }
+
+header { position: fixed; top: 0; left: 0; width: 100%; height: 1.5740740741rem; z-index: 2; background: #14b9c8; }
+header .nav { margin: 0 0.3888888889rem; height: 1.5740740741rem; display: flex; justify-content: space-between; align-items: center; }
+header .nav .info { width: 0.9074074074rem; height: 0.9074074074rem; border-radius: 49px; background: #fff; }
+header .nav .info .icon { margin: 0.0740740741rem; }
+header .nav .info .icon i { display: block; width: 0.7592592593rem; height: 0.7592592593rem; text-align: center; line-height: 0.7592592593rem; color: #14b9c8; border-radius: 0.3888888889rem; background: #b9eaef; font-size: 0.6296296296rem; }
+header .nav .logo { color: #fff; font-size: 0.4259259259rem; }
+header .nav .seach i { color: #fff; font-size: 0.5rem; }
+
+main { width: 10rem; margin: 1.5740740741rem auto 1.462962963rem; }
+main section .optionbox { padding-bottom: 0.1574074074rem; background: #eaeaea; border-bottom: 0.0092592593rem solid #ccc; }
+main section .optionbox .option { height: 1.1111111111rem; display: flex; align-items: center; text-align: center; background: #fff; }
+main section .optionbox .option .download { font-size: 0.4259259259rem; width: 4.9722222222rem; color: #a0a0a0; border-right: 0.0277777778rem solid #9b9b9b; }
+main section .optionbox .option .heartgame { font-size: 0.4259259259rem; width: 5rem; color: #14b9c8; }
+main section .gamebox { background: #eee; padding-bottom: 0.0277777778rem; }
+main section .gamebox .game { background: #fff; padding: 0.4259259259rem 0.4444444444rem 0.3888888889rem; display: flex; justify-content: space-between; }
+main section .gamebox .game .leftside { display: flex; align-items: center; }
+main section .gamebox .game .leftside .edge { padding-right: 0.2777777778rem; }
+main section .gamebox .game .leftside .edge .logo { width: 1.6666666667rem; }
+main section .gamebox .game .leftside .edge .logo img { width: 100%; }
+main section .gamebox .game .leftside .detail .title { font-size: 0.3333333333rem; color: #4a4a4a; }
+main section .gamebox .game .leftside .detail .stars { line-height: 0.7037037037rem; }
+main section .gamebox .game .leftside .detail .stars .icon { position: absolute; }
+main section .gamebox .game .leftside .detail .stars .icon i { font-size: 0.2592592593rem; color: #14b9c8; }
+main section .gamebox .game .leftside .detail .stars .grade { font-size: 0.1851851852rem; padding-left: 1.7222222222rem; color: #4a4a4a; }
+main section .gamebox .game .leftside .detail .labels { display: flex; margin-top: 0.0925925926rem; }
+main section .gamebox .game .leftside .detail .labels .edge { padding-right: 0.1851851852rem; }
+main section .gamebox .game .leftside .detail .labels .edge .label { padding: 0 0.1481481481rem; font-size: 0.2407407407rem; line-height: 0.4259259259rem; border: 2px solid #14b9c8; border-radius: 0.0925925926rem; color: #14b9c8; }
+main section .gamebox .game .rightside .hint { text-align: right; height: 0.3333333333rem; }
+main section .gamebox .game .rightside .hint span { font-size: 0.2222222222rem; vertical-align: middle; line-height: 0.3333333333rem; color: #59cdd8; }
+main section .gamebox .game .rightside .hint i { font-size: 0.3333333333rem; vertical-align: middle; line-height: 0.3333333333rem; color: #a0a0a0; }
+main section .gamebox .game .rightside .blank { height: 0.5555555556rem; }
+main section .gamebox .game .rightside .btn { width: 1.7222222222rem; line-height: 0.7777777778rem; font-size: 0.2962962963rem; border-radius: 0.0925925926rem; background: #12b7a4; text-align: center; color: #fff; }
+
+footer { position: fixed; bottom: 0; left: 0; width: 100%; height: 1.462962963rem; background: #14b9c8; z-index: 2; }
+footer .nav { display: flex; }
+footer .nav .list { width: 20%; padding-top: 0.1851851852rem; padding-bottom: 0.0925925926rem; }
+footer .nav .list .icon { width: 0.6111111111rem; height: 0.6111111111rem; margin: 0 auto; border-radius: 0.0555555556rem; background: #e9eaef; text-align: center; line-height: 0.6111111111rem; }
+footer .nav .list .icon i { font-size: 0.4259259259rem; color: #14b7c8; }
+footer .nav .list h2 { font-size: 0.2407407407rem; color: #aee7ec; line-height: 0.5740740741rem; text-align: center; }
+footer .nav .star .icon { width: 0.6481481481rem; height: 0.6481481481rem; line-height: 0.6481481481rem; border-radius: 0.3240740741rem; }
+footer .nav .chosen { background: #1094a0; }
+footer .nav .chosen .icon { background: #fff; }
+footer .nav .chosen .icon i { color: #1094a0; }
+footer .nav .chosen h2 { color: #fff; }

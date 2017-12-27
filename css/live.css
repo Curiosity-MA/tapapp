@@ -1,0 +1,49 @@
+body { font-family: '"Microsoft YaHei'; }
+
+header { position: fixed; top: 0; left: 0; width: 100%; height: 1.5740740741rem; background: #14b9c8; z-index: 2; }
+header .nav { margin: 0 0.3888888889rem; height: 1.5740740741rem; display: flex; justify-content: space-between; align-items: center; }
+header .nav .info { width: 0.9074074074rem; height: 0.9074074074rem; border-radius: 49px; background: #fff; }
+header .nav .info .icon { margin: 0.0740740741rem; }
+header .nav .info .icon i { display: block; width: 0.7592592593rem; height: 0.7592592593rem; text-align: center; line-height: 0.7592592593rem; color: #14b9c8; border-radius: 0.3888888889rem; background: #b9eaef; font-size: 0.6296296296rem; }
+header .nav .logo { color: #fff; font-size: 0.4259259259rem; }
+header .nav .seach i { color: #fff; font-size: 0.5rem; }
+
+main { width: 10rem; margin: 1.5740740741rem auto 1.462962963rem; }
+main section .listbox { padding-bottom: 0.2222222222rem; background: #f0f0f0; }
+main section .listbox .title { display: flex; align-items: center; height: 1.9444444444rem; padding-left: 0.3888888889rem; position: relative; background: #fff; }
+main section .listbox .title .logo { width: 1.0555555556rem; }
+main section .listbox .title .logo img { width: 100%; }
+main section .listbox .title .detail { padding-left: 0.2407407407rem; }
+main section .listbox .title .detail .name { font-size: 0.3333333333rem; line-height: 0.6296296296rem; color: #323232; }
+main section .listbox .title .detail .from { font-size: 0.3333333333rem; line-height: 0.6296296296rem; color: #7a7a7a; }
+main section .listbox .title .more { position: absolute; right: 0.3888888889rem; top: 0.3888888889rem; }
+main section .listbox .title .more .icon { font-size: 0.2962962963rem; color: #a0a0a0; }
+main section .listbox .title .hits { position: absolute; right: 0.3888888889rem; bottom: 0.4444444444rem; font-size: 0.2962962963rem; color: #b3b3b3; }
+main section .listbox .video { background: #fff; }
+main section .listbox .video img { width: 100%; }
+main section .listbox .infobox { position: relative; padding: 0.4074074074rem 0 0.5740740741rem 0.4074074074rem; background: #fff; }
+main section .listbox .infobox .tit { font-size: 0.4444444444rem; line-height: 0.7037037037rem; }
+main section .listbox .infobox .edge { margin-top: 0.4259259259rem; }
+main section .listbox .infobox .edge .author { font-size: 0.2592592593rem; display: flex; align-items: center; height: 0.5185185185rem; color: #a0a0a0; }
+main section .listbox .infobox .edge .author .user { width: 0.5rem; }
+main section .listbox .infobox .edge .author .grade1 { width: 0.3240740741rem; }
+main section .listbox .infobox .edge .author .grade2 { width: 0.2962962963rem; }
+main section .listbox .infobox .edge .author img { width: 100%; }
+main section .listbox .infobox .info { padding-top: 0.2037037037rem; font-size: 0.3333333333rem; line-height: 0.5rem; color: #7a7a7a; }
+main section .listbox .infobox .time { padding-top: 0.6111111111rem; font-size: 0.2592592593rem; color: #9e9e9e; }
+main section .listbox .infobox .feedback { width: 2.9259259259rem; height: 0.5185185185rem; position: absolute; right: 0.3888888889rem; bottom: 0.4444444444rem; display: flex; justify-content: space-between; }
+main section .listbox .infobox .feedback i { font-size: 0.5185185185rem; color: #a0a0a0; }
+main section .listbox .infobox .feedback span { font-size: 0.2222222222rem; color: #909090; line-height: 0.5185185185rem; }
+main section .listbox .infobox .feedback .back { display: flex; align-items: center; color: #b8b8b8; }
+
+footer { position: fixed; bottom: 0; left: 0; width: 100%; height: 1.462962963rem; background: #14b9c8; z-index: 2; }
+footer .nav { display: flex; }
+footer .nav .list { width: 20%; padding-top: 0.1851851852rem; padding-bottom: 0.0925925926rem; }
+footer .nav .list .icon { width: 0.6111111111rem; height: 0.6111111111rem; margin: 0 auto; border-radius: 0.0555555556rem; background: #e9eaef; text-align: center; line-height: 0.6111111111rem; }
+footer .nav .list .icon i { font-size: 0.4259259259rem; color: #14b7c8; }
+footer .nav .list h2 { font-size: 0.2407407407rem; color: #aee7ec; line-height: 0.5740740741rem; text-align: center; }
+footer .nav .star .icon { width: 0.6481481481rem; height: 0.6481481481rem; line-height: 0.6481481481rem; border-radius: 0.3240740741rem; }
+footer .nav .chosen { background: #1094a0; }
+footer .nav .chosen .icon { background: #fff; }
+footer .nav .chosen .icon i { color: #1094a0; }
+footer .nav .chosen h2 { color: #fff; }

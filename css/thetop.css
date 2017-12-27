@@ -1,0 +1,48 @@
+body { font-family: '"Microsoft YaHei'; }
+
+header { position: fixed; top: 0; left: 0; width: 100%; height: 1.5740740741rem; z-index: 2; background: #14b9c8; }
+header .nav { margin: 0 0.3888888889rem; height: 1.5740740741rem; display: flex; justify-content: space-between; align-items: center; }
+header .nav .info { width: 0.9074074074rem; height: 0.9074074074rem; border-radius: 49px; background: #fff; }
+header .nav .info .icon { margin: 0.0740740741rem; }
+header .nav .info .icon i { display: block; width: 0.7592592593rem; height: 0.7592592593rem; text-align: center; line-height: 0.7592592593rem; color: #14b9c8; border-radius: 0.3888888889rem; background: #b9eaef; font-size: 0.6296296296rem; }
+header .nav .logo { color: #fff; font-size: 0.4259259259rem; }
+header .nav .seach i { color: #fff; font-size: 0.5rem; }
+
+main { width: 10rem; margin: 1.5740740741rem auto 1.462962963rem; }
+main section .region { display: flex; width: 100%; height: 1.4074074074rem; background: #fafafa; align-items: center; }
+main section .region .swiper-container { margin: 0 0; }
+main section .region .swiper-container .edge { padding-left: 0.2777777778rem; }
+main section .region .swiper-container .edge .swiper-slide { margin-right: 0.3518518519rem; width: 1.4074074074rem; height: 0.8888888889rem; line-height: 0.8888888889rem; border-radius: 0.4444444444rem; background: #dcdcdc; font-size: 0.3333333333rem; text-align: center; color: #9b9b9b; }
+main section .region .swiper-container .edge .chosen { background: #14b9c8; color: #fcfcfc; }
+main section .navbox { padding-left: 0.462962963rem; }
+main section .navbox .nav { width: 100%; height: 0.9814814815rem; display: flex; align-items: center; }
+main section .navbox .nav .list { width: 1.7962962963rem; font-size: 0.2777777778rem; text-align: center; border-left: 0.0277777778rem solid #9b9b9b; }
+main section .navbox .nav .list a { color: #9b9b9b; }
+main section .navbox .nav .chosen { border: none; }
+main section .navbox .nav .chosen a { color: #28b9c8; }
+main section .gamebox { width: 100%; padding-top: 0.037037037rem; background: #eee; }
+main section .gamebox .game { display: flex; align-items: center; background: #fff; height: 2.5rem; }
+main section .gamebox .game .rank { width: 0.8333333333rem; text-align: center; font-size: 0.3703703704rem; color: #f5a623; }
+main section .gamebox .game .edge { padding-right: 0.2962962963rem; }
+main section .gamebox .game .edge .logo { width: 1.6666666667rem; }
+main section .gamebox .game .edge .logo img { width: 100%; }
+main section .gamebox .game .detail .title { font-size: 0.3703703704rem; color: #4a4a4a; }
+main section .gamebox .game .detail .stars .icon { line-height: 0.7037037037rem; position: absolute; }
+main section .gamebox .game .detail .stars .icon i { font-size: 0.2407407407rem; color: #dcdcdc; }
+main section .gamebox .game .detail .stars .grade { line-height: 0.7037037037rem; padding-left: 1.7222222222rem; }
+main section .gamebox .game .detail .stars .grade em { font-size: 0.1851851852rem; color: #505050; }
+main section .gamebox .game .detail .labels { margin-top: 0.0925925926rem; display: flex; align-items: center; }
+main section .gamebox .game .detail .labels .edge { padding-right: 0.1851851852rem; }
+main section .gamebox .game .detail .labels .edge .label { text-align: center; line-height: 0.4259259259rem; padding: 0 0.1481481481rem; font-size: 0.2407407407rem; border-radius: 0.0925925926rem; border: 2px solid #14b9c8; color: #24b9c8; }
+
+footer { position: fixed; bottom: 0; left: 0; width: 100%; height: 1.462962963rem; background: #14b9c8; z-index: 2; }
+footer .nav { display: flex; }
+footer .nav .list { width: 20%; padding-top: 0.1851851852rem; padding-bottom: 0.0925925926rem; }
+footer .nav .list .icon { width: 0.6111111111rem; height: 0.6111111111rem; margin: 0 auto; border-radius: 0.0555555556rem; background: #e9eaef; text-align: center; line-height: 0.6111111111rem; }
+footer .nav .list .icon i { font-size: 0.4259259259rem; color: #14b7c8; }
+footer .nav .list h2 { font-size: 0.2407407407rem; color: #aee7ec; line-height: 0.5740740741rem; text-align: center; }
+footer .nav .star .icon { width: 0.6481481481rem; height: 0.6481481481rem; line-height: 0.6481481481rem; border-radius: 0.3240740741rem; }
+footer .nav .chosen { background: #1094a0; }
+footer .nav .chosen .icon { background: #fff; }
+footer .nav .chosen .icon i { color: #1094a0; }
+footer .nav .chosen h2 { color: #fff; }

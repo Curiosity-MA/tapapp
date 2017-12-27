@@ -1,0 +1,93 @@
+body { font-family: '"Microsoft YaHei'; }
+
+main { width: 10rem; margin: 0 auto; }
+main section .thevideo img { width: 100%; }
+main section .item { border-bottom: 0.0092592593rem solid #e1e1e1; background: #ececec; padding-bottom: 0.0185185185rem; }
+main section .item .info { padding: 0.4444444444rem 0.4444444444rem 0.5rem 0.4444444444rem; background: #fff; }
+main section .item .info .thegame { display: flex; align-items: center; position: relative; }
+main section .item .info .thegame .logo { width: 2.2222222222rem; }
+main section .item .info .thegame .logo img { width: 100%; display: block; }
+main section .item .info .thegame .detail { padding-left: 0.2962962963rem; }
+main section .item .info .thegame .detail .title { line-height: 0.5555555556rem; font-size: 0.462962963rem; color: #4a4a4a; }
+main section .item .info .thegame .detail .from { line-height: 0.4814814815rem; font-size: 0.2777777778rem; color: #14b9c8; }
+main section .item .info .thegame .detail .hits { line-height: 0.7037037037rem; font-size: 0.2222222222rem; color: #a0a0a0; }
+main section .item .info .thegame .grade { width: 1.3888888889rem; position: absolute; right: 0; top: 0; }
+main section .item .info .thegame .grade img { width: 100%; }
+main section .item .info .action { display: flex; justify-content: flex-end; }
+main section .item .info .action .isHeart { width: 0.8333333333rem; text-align: center; }
+main section .item .info .action .isHeart i { font-size: 0.5rem; line-height: 0.8333333333rem; color: #14b9c8; }
+main section .item .info .action .edge { padding-left: 0.3333333333rem; }
+main section .item .info .action .edge .form { width: 1.5555555556rem; text-align: center; font-size: 0.3148148148rem; border-radius: 0.1111111111rem; }
+main section .item .info .action .edge .care { line-height: 0.7777777778rem; border: 0.0277777778rem solid #14b9c8; color: #14b9c8; }
+main section .item .info .action .edge .heart { line-height: 0.8333333333rem; background: #14b9c8; color: #fff; }
+main section .nav { display: flex; }
+main section .nav .list { flex-grow: 1; border-bottom: 0.0833333333rem solid #fff; border-left: 0.0092592593rem solid #eeeeee; text-align: center; }
+main section .nav .list .opt { font-size: 0.3888888889rem; line-height: 1.3333333333rem; color: #838383; }
+main section .nav .chosen { border-bottom-color: #14b9c8; }
+main section .nav .chosen .opt { color: #14b9c8; }
+main section .nav .first { border-left: none; }
+main section .labelbox { padding: 0.3888888889rem 0 0.0277777778rem; background: #eee; }
+main section .labelbox .items { padding: 0.3333333333rem 0 0.3055555556rem; background: #fff; display: flex; align-items: center; }
+main section .labelbox .items .edge { padding-right: 0.2777777778rem; }
+main section .labelbox .items .edge .label { width: auto; font-size: 0.3333333333rem; color: #14b9c8; line-height: 0.6296296296rem; padding: 0 0.2037037037rem; border-radius: 0.1111111111rem; border: 0.0185185185rem solid #14b9c8; }
+main section .lightbox { padding: 0.2777777778rem 0; background: #f5f5f5; }
+main section .lightbox .swiper-container .edge .swiper-slide { padding-left: 0.2777777778rem; }
+main section .lightbox .swiper-container .edge .swiper-slide .slide { width: 9.7222222222rem; }
+main section .lightbox .swiper-container .edge .swiper-slide .slide img { width: 100%; }
+main section .gameinfo .title { display: flex; height: 1.2962962963rem; align-items: center; position: relative; }
+main section .gameinfo .title .edge { padding-left: 0.2777777778rem; padding-right: 0.1666666667rem; }
+main section .gameinfo .title .edge .pipe { width: 0.1481481481rem; height: 0.5555555556rem; background: #14b9c8; border-radius: 0.0740740741rem; }
+main section .gameinfo .title h2 { font-size: 0.4259259259rem; color: #4a4a4a; }
+main section .gameinfo .main { padding-left: 0.5925925926rem; padding-right: 0.7962962963rem; line-height: 0.6296296296rem; font-size: 0.3333333333rem; color: #5c5c5c; }
+main section .gameinfo .more { margin-top: 0.9444444444rem; padding-bottom: 0.4074074074rem; text-align: right; padding-right: 0.5740740741rem; font-size: 0.3333333333rem; color: #14b9c8; }
+main section .gameinfo .pine { position: absolute; bottom: 0.5rem; right: 0.7407407407rem; font-size: 0.3333333333rem; color: #14b9c8; }
+main section .makeinfo { border-top: 0.0277777778rem solid #eee; }
+main section .makeinfo .makebox { padding: 0.1388888889rem 0 0.4444444444rem; }
+main section .makeinfo .makebox .make { display: flex; line-height: 0.7222222222rem; }
+main section .makeinfo .makebox .make .line { width: 2.7592592593rem; text-align: right; font-size: 0.3518518519rem; color: #a0a0a0; }
+main section .makeinfo .makebox .make .name { padding-left: 0.2962962963rem; font-size: 0.3518518519rem; color: #14b9c8; }
+main section .makeinfo .makebox .make .time { color: #4a4a4a; font-size: 0.2962962963rem; }
+main section .official { border-top: 0.1111111111rem solid #eee; }
+main section .official .postlist .swiper-container .edge { padding-left: 0.4444444444rem; padding-bottom: 0.1944444444rem; }
+main section .official .postlist .swiper-container .edge .swiper-slide { width: 5.8333333333rem; padding-right: 0.5555555556rem; }
+main section .official .postlist .swiper-container .edge .swiper-slide .newsmain { width: 100%; }
+main section .official .postlist .swiper-container .edge .swiper-slide .newsmain .topic { font-size: 0.3333333333rem; line-height: 0.4444444444rem; color: #14b9c8; }
+main section .official .postlist .swiper-container .edge .swiper-slide .newsmain .news { font-size: 0.2592592593rem; padding-top: 0.0648148148rem; height: 0.6481481481rem; line-height: 0.6481481481rem; overflow: hidden; color: #1e1e1e; }
+main section .official .postlist .swiper-container .edge .swiper-slide .newsmain .slide { width: 5.8333333333rem; }
+main section .official .postlist .swiper-container .edge .swiper-slide .newsmain .slide img { width: 100%; display: block; }
+main section .official .postlist .swiper-container .edge .swiper-slide .newsmain .record { display: flex; line-height: 1rem; justify-content: space-between; color: #14b9c8; font-size: 0.2592592593rem; }
+main section .comment { padding-top: 0.3518518519rem; background: #eee; }
+main section .comment .listbox { padding-top: 0.1574074074rem; background: #eee; border-bottom: 0.0092592593rem solid #cacaca; }
+main section .comment .listbox .commentlist { padding-top: 0.1111111111rem; background: #fff; }
+main section .comment .listbox .commentlist .user { position: relative; padding-left: 0.3888888889rem; display: flex; align-items: center; height: 1.4444444444rem; }
+main section .comment .listbox .commentlist .user .userlogo { width: 1.0185185185rem; }
+main section .comment .listbox .commentlist .user .userlogo img { width: 100%; display: block; }
+main section .comment .listbox .commentlist .user .userinfo { padding-left: 0.2777777778rem; }
+main section .comment .listbox .commentlist .user .userinfo .username { font-size: 0.3333333333rem; line-height: 0.4814814815rem; color: #4a4a4a; }
+main section .comment .listbox .commentlist .user .userinfo .stars i { font-size: 0.2777777778rem; line-height: 0.4259259259rem; color: #14b9c8; }
+main section .comment .listbox .commentlist .user .aboutuser { position: absolute; bottom: 0.2777777778rem; right: 0.462962963rem; }
+main section .comment .listbox .commentlist .user .aboutuser span { line-height: 1.2777777778rem; padding-left: 0.3148148148rem; font-size: 0.2407407407rem; color: #a0a0a0; }
+main section .comment .listbox .commentlist .commentmain { padding-left: 0.4444444444rem; padding-right: 0.537037037rem; font-size: 0.3333333333rem; line-height: 0.6296296296rem; color: #4a4a4a; }
+main section .comment .listbox .commentlist .dialoguebox { padding: 0 0.462962963rem 0 0.3888888889rem; background: #fafafa; }
+main section .comment .listbox .commentlist .dialoguebox .dialogue { justify-content: space-between; display: flex; align-items: center; height: 1.1111111111rem; }
+main section .comment .listbox .commentlist .dialoguebox .dialogue .phone { color: #a0a0a0; }
+main section .comment .listbox .commentlist .dialoguebox .dialogue .phone .icon { font-size: 0.2777777778rem; }
+main section .comment .listbox .commentlist .dialoguebox .dialogue .phone span { font-size: 0.2592592593rem; }
+main section .comment .listbox .commentlist .dialoguebox .dialogue .click span { font-size: 0.4074074074rem; line-height: 0.4074074074rem; padding-left: 0.7407407407rem; color: #a0a0a0; }
+main section .comment .listbox .commentlist .dialoguebox .dialogue .click span .icon { font-size: 0.4074074074rem; vertical-align: middle; }
+main section .comment .listbox .commentlist .dialoguebox .dialogue .click span em { font-size: 0.2407407407rem; vertical-align: middle; }
+main section .comment .first { padding-top: none; }
+main section .forum { padding-top: 0.3148148148rem; background: #eee; }
+main section .bbs { padding: 0.4444444444rem; border-bottom: 0.0185185185rem solid #dcdcdc; }
+main section .bbs .user { height: 0.5555555556rem; display: flex; align-items: center; }
+main section .bbs .user .userlogo { width: 0.5555555556rem; }
+main section .bbs .user .userlogo img { width: 100%; }
+main section .bbs .user .userinfo { padding-left: 0.2407407407rem; font-size: 0.2777777778rem; color: #7f7f7f; }
+main section .bbs .bbstitle { padding-top: 0.0925925926rem; line-height: 0.8518518519rem; font-size: 0.4074074074rem; color: #4a4a4a; }
+main section .bbs .bbsmain { line-height: 0.5185185185rem; font-size: 0.2592592593rem; color: #a0a0a0; padding-rignt: 0.2592592593rem; }
+main section .bbs .record { padding-top: 0.4444444444rem; display: flex; justify-content: space-between; }
+main section .bbs .record .time { font-size: 0.2407407407rem; line-height: 0.4259259259rem; color: #a0a0a0; }
+main section .bbs .record .hits { padding-right: 0.1481481481rem; }
+main section .bbs .record .hits span { padding-left: 0.462962963rem; line-height: 0.4259259259rem; color: #a0a0a0; }
+main section .bbs .record .hits span .icon { font-size: 0.2777777778rem; vertical-align: middle; }
+main section .bbs .record .hits span em { font-size: 0.2407407407rem; vertical-align: middle; }

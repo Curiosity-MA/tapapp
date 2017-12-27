@@ -1,0 +1,57 @@
+body { font-family: '"Microsoft YaHei'; }
+
+header { position: fixed; top: 0; left: 0; width: 100%; height: 1.5740740741rem; background: #14b9c8; z-index: 2; }
+header .nav { margin: 0 0.3888888889rem; height: 1.5740740741rem; display: flex; justify-content: space-between; align-items: center; }
+header .nav .info { width: 0.9074074074rem; height: 0.9074074074rem; border-radius: 49px; background: #fff; }
+header .nav .info .icon { margin: 0.0740740741rem; }
+header .nav .info .icon i { display: block; width: 0.7592592593rem; height: 0.7592592593rem; text-align: center; line-height: 0.7592592593rem; color: #14b9c8; border-radius: 0.3888888889rem; background: #b9eaef; font-size: 0.6296296296rem; }
+header .nav .logo { color: #fff; font-size: 0.4259259259rem; }
+header .nav .seach i { color: #fff; font-size: 0.5rem; }
+
+main { width: 10rem; margin: 1.5740740741rem auto 1.462962963rem; }
+main section .imgnav .list img { width: 100%; }
+main section .label { width: 100%; display: flex; height: 1.8703703704rem; align-items: center; background: #f2f2f2; }
+main section .label .swiper-container { margin: 0 0; height: 0.8148148148rem; }
+main section .label .swiper-container .edge { padding-left: 0.0555555556rem; }
+main section .label .swiper-container .edge .swiper-slide { width: auto; margin-left: 0.3333333333rem; }
+main section .label .swiper-container .edge .swiper-slide .labelname { border-radius: 0.4074074074rem; background: #14b9c8; font-size: 0.3333333333rem; line-height: 0.8148148148rem; padding: 0 0.4074074074rem; color: #fff; }
+main section .listbox { padding-top: 0.0185185185rem; background: #dcdcdc; }
+main section .listbox .gamelist { padding-bottom: 0.6481481481rem; background: #f2f2f2; }
+main section .listbox .gamelist .line { display: flex; height: 1.4444444444rem; justify-content: space-between; align-items: center; }
+main section .listbox .gamelist .line .title { color: #4a4a4a; padding-left: 0.3888888889rem; font-size: 0.4074074074rem; }
+main section .listbox .gamelist .line .more { color: #14b9c8; font-size: 0.2592592593rem; padding-right: 0.4074074074rem; }
+main section .listbox .gamelist .list .swiper-container .edge { padding-left: 0.0555555556rem; }
+main section .listbox .gamelist .list .swiper-container .edge .swiper-slide { width: 2.5555555556rem; }
+main section .listbox .gamelist .list .swiper-container .edge .swiper-slide .slide { padding-left: 0.3333333333rem; }
+main section .listbox .gamelist .list .swiper-container .edge .swiper-slide .slide img { width: 100%; }
+main section .listbox .gamelist .list .swiper-container .edge .swiper-slide .slide .detail { padding-top: 0.1759259259rem; line-height: 0.4259259259rem; font-size: 0.2592592593rem; color: #1e1e1e; }
+main section .special { padding-top: 0.0185185185rem; background: #dcdcdc; }
+main section .special .topiclist { padding-bottom: 0.6481481481rem; background: #f2f2f2; }
+main section .special .topiclist .line { display: flex; height: 1.4444444444rem; justify-content: space-between; align-items: center; }
+main section .special .topiclist .line .title { color: #4a4a4a; padding-left: 0.3888888889rem; font-size: 0.4074074074rem; }
+main section .special .topiclist .line .more { color: #14b9c8; font-size: 0.2592592593rem; padding-right: 0.4074074074rem; }
+main section .special .topiclist .list .swiper-container .edge { padding-left: 0.0555555556rem; }
+main section .special .topiclist .list .swiper-container .edge .swiper-slide { width: 5.3333333333rem; }
+main section .special .topiclist .list .swiper-container .edge .swiper-slide .slide { padding-left: 0.3333333333rem; }
+main section .special .topiclist .list .swiper-container .edge .swiper-slide .slide img { width: 100%; }
+main section .modu { padding-top: 0.0185185185rem; background: #dcdcdc; }
+main section .modu .gamelist { padding-bottom: 0.6481481481rem; background: #f2f2f2; }
+main section .modu .gamelist .line { display: flex; height: 1.4444444444rem; justify-content: space-between; align-items: center; }
+main section .modu .gamelist .line .title { color: #4a4a4a; padding-left: 0.3888888889rem; font-size: 0.4074074074rem; }
+main section .modu .gamelist .line .more { color: #14b9c8; font-size: 0.2592592593rem; padding-right: 0.4074074074rem; }
+main section .modu .gamelist .list .swiper-container .edge { padding-left: 0.0555555556rem; }
+main section .modu .gamelist .list .swiper-container .edge .swiper-slide { width: 5.5rem; }
+main section .modu .gamelist .list .swiper-container .edge .swiper-slide .slide { padding-left: 0.3333333333rem; }
+main section .modu .gamelist .list .swiper-container .edge .swiper-slide .slide img { width: 100%; }
+
+footer { position: fixed; bottom: 0; left: 0; width: 100%; height: 1.462962963rem; background: #14b9c8; z-index: 2; }
+footer .nav { display: flex; }
+footer .nav .list { width: 20%; padding-top: 0.1851851852rem; padding-bottom: 0.0925925926rem; }
+footer .nav .list .icon { width: 0.6111111111rem; height: 0.6111111111rem; margin: 0 auto; border-radius: 0.0555555556rem; background: #e9eaef; text-align: center; line-height: 0.6111111111rem; }
+footer .nav .list .icon i { font-size: 0.4259259259rem; color: #14b7c8; }
+footer .nav .list h2 { font-size: 0.2407407407rem; color: #aee7ec; line-height: 0.5740740741rem; text-align: center; }
+footer .nav .star .icon { width: 0.6481481481rem; height: 0.6481481481rem; line-height: 0.6481481481rem; border-radius: 0.3240740741rem; }
+footer .nav .chosen { background: #1094a0; }
+footer .nav .chosen .icon { background: #fff; }
+footer .nav .chosen .icon i { color: #1094a0; }
+footer .nav .chosen h2 { color: #fff; }
